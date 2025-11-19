@@ -1,0 +1,11 @@
+create table paciente (
+id int auto_increment primary key, 
+nome varchar(100) not null, 
+cpf varchar(20) not null,
+sus varchar(20) not null,
+idade int not null,
+endereco varchar(200) not null,
+telefone varchar(20) not null,
+email varchar(100) not null,
+contador int not null
+);
