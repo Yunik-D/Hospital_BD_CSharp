@@ -16,7 +16,7 @@ namespace Atividade_CSharp
 
             while (continuar)
             {
-                string cs = "server=127.0.0.1;uid=root;pwd=1234;database=hospital;Port=3306";
+                string cs = "server=127.0.0.1;uid=root;database=hospital;Port=3306";
 
                 using (var conexao = new MySqlConnection(cs))
                 {
@@ -64,7 +64,7 @@ namespace Atividade_CSharp
 
                     switch (inicio.Hud())
                     {
-                        case "1":
+                        case "C":
                             string res = "S";
 
                             while (res == "S" && contador < limite && contador < array.Length)
@@ -126,7 +126,7 @@ namespace Atividade_CSharp
                             }
                             break;
 
-                        case "2":
+                        case "L":
                             Console.Clear();
                             Console.WriteLine($"PACIENTES NA FILA ({contador + "/" + limite}):");
                             if (contador == 0)
@@ -155,7 +155,7 @@ namespace Atividade_CSharp
                             }
                             break;
 
-                        case "3":
+                        case "A":
                             Console.Clear();
                             if (contador == 0)
                             {
@@ -207,7 +207,7 @@ namespace Atividade_CSharp
                             }
                             break;
 
-                        case "4":
+                        case "D":
 
                             Console.Clear();
                             if (contador == 0)

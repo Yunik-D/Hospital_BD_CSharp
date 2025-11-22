@@ -12,7 +12,7 @@ namespace Atividade_CSharp
         {
             Console.WriteLine("=================================================================");
             Console.WriteLine("Bem vindo ao programa do Hospital JK. Selecione a opção desejada:");
-            Console.WriteLine("\n 1. Cadastrar Paciente. \n 2. Listar Pacientes. \n 3. Atender Paciente. \n 4. Alterar Dados Cadastrais. \n Q. Sair");
+            Console.WriteLine("\n C. Cadastrar Paciente. \n L. Listar Pacientes. \n A. Atender Paciente. \n D. Alterar Dados Cadastrais. \n Q. Sair");
             Console.WriteLine("=================================================================");
             string valor = Console.ReadLine();
             valor = valor.ToUpper();
